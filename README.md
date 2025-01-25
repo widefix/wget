@@ -1,12 +1,6 @@
 # Wget
 
-Download files from the internet using with ease. It's a wrapper around the standard Ruby `net/http` library. The large files are downloaded in chunks to avoid memory issues.
-
-```ruby
-filename = "test.md"
-url = "https://raw.githubusercontent.com/widefix/actual_db_schema/refs/heads/main/README.md"
-Wget.call(url, filename)
-```
+Download files from the internet with ease. It's a wrapper around the standard Ruby net/http library. Large files are downloaded in chunks to avoid memory issues.
 
 ## Installation
 
