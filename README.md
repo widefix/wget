@@ -2,6 +2,8 @@
 
 Download files from the internet with ease. It's a wrapper around the standard Ruby `net/http` library. Large files are downloaded in chunks to avoid memory issues.
 
+Why use this gem? The `net/http` library is verbose and can be tricky for newcomers.
+
 ## Installation
 
 Add this line to your application's Gemfile:
