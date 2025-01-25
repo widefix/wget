@@ -1,6 +1,6 @@
 # Wget
 
-Download files from the internet with ease. It's a wrapper around the standard Ruby net/http library. Large files are downloaded in chunks to avoid memory issues.
+Download files from the internet with ease. It's a wrapper around the standard Ruby `net/http` library. Large files are downloaded in chunks to avoid memory issues.
 
 ## Installation
 
@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-Use the `Wget.call` method to download a file from the internet. The method takes two arguments: the URL of the file to download and the filename to save the file as. The method will download the file and save it to the specified filename.
+Use the `Wget.call` method to download a file from the internet. The method takes two arguments: the URL of the file to download and the filename to save the file as. The method will download the file and save it with the specified filename.
 
-Check the example below:
+Refer to the example below:
 
 ```ruby
 filename = "test.md"
