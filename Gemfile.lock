@@ -1,0 +1,36 @@
+PATH
+  remote: .
+  specs:
+    wget (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debug (1.9.2)
+      irb (~> 1.10)
+      reline (>= 0.3.8)
+    io-console (0.7.2)
+    irb (1.14.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    minitest (5.25.4)
+    psych (5.1.2)
+      stringio
+    rake (10.5.0)
+    rdoc (6.7.0)
+      psych (>= 4.0.0)
+    reline (0.5.9)
+      io-console (~> 0.5)
+    stringio (3.1.1)
+
+PLATFORMS
+  arm64-darwin-23
+
+DEPENDENCIES
+  debug
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  wget!
+
+BUNDLED WITH
+   2.4.22
