@@ -1,8 +1,12 @@
 # Wget
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wget`. To experiment with that code, run `bin/console` for an interactive prompt.
+Download files from the internet using with ease. It's a wrapper around the standard Ruby `net/http` library. The large files are downloaded in chunks to avoid memory issues.
 
-TODO: Delete this and the text above, and describe your gem
+```ruby
+filename = "test.md"
+url = "https://raw.githubusercontent.com/widefix/actual_db_schema/refs/heads/main/README.md"
+Wget.call(url, filename)
+```
 
 ## Installation
 
@@ -22,7 +26,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use the `Wget.call` method to download a file from the internet. The method takes two arguments: the URL of the file to download and the filename to save the file as. The method will download the file and save it to the specified filename.
+
+Check the example below:
+
+```ruby
+filename = "test.md"
+url = "https://raw.githubusercontent.com/widefix/actual_db_schema/refs/heads/main/README.md"
+Wget.call(url, filename)
+```
 
 ## Development
 
